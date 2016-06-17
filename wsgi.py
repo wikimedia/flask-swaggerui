@@ -1,8 +1,3 @@
-This library provides python Flask utilities and static assets for rendering Swagger UI.
-
-# Example
-
-```python
 from flask import Flask, jsonify
 
 from flask_swaggerui import render_swaggerui, build_static_blueprint
@@ -25,4 +20,3 @@ app.register_blueprint(build_static_blueprint("swaggerui", __name__))
 
 if __name__ == "__main__":
     app.run(port=8080, debug=True)
-```
