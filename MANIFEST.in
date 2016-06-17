@@ -1,0 +1,3 @@
+include LICENSE README.md requirements.txt
+recursive-include flask_swaggerui/templates *
+recursive-include flask_swaggerui/static *
