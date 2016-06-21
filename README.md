@@ -23,6 +23,5 @@ def spec():
 # Adds static assets for swagger-ui to path
 app.register_blueprint(build_static_blueprint("swaggerui", __name__))
 
-if __name__ == "__main__":
-    app.run(port=8080, debug=True)
+app.run(port=8080, debug=True)
 ```
